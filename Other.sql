@@ -49,3 +49,11 @@ group by
 	bet 
 order by 
 	player;
+
+
+-- проверка данных
+
+select game_id,sum(points),sum(place) from score
+group by game_id
+--having sum(points) !=100000 
+having sum(place) !=10
