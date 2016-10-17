@@ -1,0 +1,46 @@
+-- 1) статистика по среднему месту, средним очкам для игроков, имеющих более 10 ханчанов по всем лимитам
+select s.player_name,avg(s.place),avg(s.points),count(s.player_name) from score s join game g on s.game_id = g.id
+group by s.player_name
+having count(s.player_name) > 10
+order by 2
+
+-- 2) статистика по среднему месту, очкам по различным лимитам
+select s.player_name,avg(s.place),avg(s.points),count(s.player_name) from score s join game g on s.game_id = g.id
+where g.bet = 5 --лимит
+group by s.player_name
+order by 2
+
+-- 3) общая статистика по деньгам
+
+select player_name, sum(res) res
+from (
+select s.player_name, (s.points + (
+select case when s.place = 1 then u.place1
+when s.place = 2 then u.place2
+when s.place = 3 then u.place3
+else u.place4 end
+from uma u
+where u.code = g.uma_code
+) - 25000) / 100 * g.bet res
+from score s, game g
+where g.id = s.game_id
+) z
+group by player_name
+order by res desc
+
+-- 4) сравнительная статистика игроков друг против друга (среднее место, средние очки)
+
+select count(s1.player_name) as игры,
+s1.player_name,avg(s1.place),sum (s1.points),
+s2.player_name,avg(s2.place),sum (s2.points)
+from score s1 join score s2 on s1.game_id=s2.game_id
+where s1.player_name = 'Гуркина Наталья' --ФИО игрока 1
+and s2.player_name = 'Гришин Виктор' --ФИО игрока 2
+
+-- 5) статистика по среднему месту, средним очкам по датам
+
+select s.player_name,avg(s.place),avg(s.points),count(s.player_name)
+from score s join game g on s.game_id = g.id
+where g.gd between '2016-08-01' and '2016-09-01' -- интервал дат ( между YYYY-MM-DD и YYYY-MM-DD)
+group by s.player_name
+order by 2
