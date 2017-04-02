@@ -12,7 +12,7 @@ order by 2
 
 -- 3) общая статистика по деньгам
 
-select player_name, sum(res) res
+select player_name, sum(res) res,count(*)
 from (
 select s.player_name, (s.points + (
 select case when s.place = 1 then u.place1
@@ -26,7 +26,28 @@ from score s, game g
 where g.id = s.game_id
 ) z
 group by player_name
+having count(*) > 20
 order by res desc
+
+
+--
+select player_name, sum(res) res,count(*)
+from (
+select s.player_name, (s.points + (
+select case when s.place = 1 then u.place1
+when s.place = 2 then u.place2
+when s.place = 3 then u.place3
+else u.place4 end
+from uma u
+where u.code = g.uma_code
+) - 25000) / 100 * g.bet res
+from score s, game g
+where g.id = s.game_id
+and g.gd between '2017-02-29' and '2017-03-31') z
+group by player_name
+order by res desc
+
+
 
 -- 4) сравнительная статистика игроков друг против друга (среднее место, средние очки)
 
