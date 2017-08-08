@@ -1,0 +1,528 @@
+--2017-06-01
+insert into game select max(id)+1,'2017-06-01',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Леонтьев Алексей','15600' from score;
+insert into score select (count(*)/4+1),2,'Проскурякова Ольга','22200' from score;
+insert into score select (count(*)/4+1),3,'Петрущенко Сергей','18800' from score;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','43400' from score;
+--2017-06-01
+insert into game select max(id)+1,'2017-06-01',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','27900' from score;
+insert into score select (count(*)/4+1),1,'Проскурякова Ольга','49600' from score;
+insert into score select (count(*)/4+1),3,'Петрущенко Сергей','13900' from score;
+insert into score select (count(*)/4+1),4,'Гришин Виктор','8600' from score;
+--2017-06-01
+insert into game select max(id)+1,'2017-06-01',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','23100' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','16700' from score;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','37500' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','22700' from score;
+--2017-06-01
+insert into game select max(id)+1,'2017-06-01',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Петрущенко Сергей','22600' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','21600' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','25200' from score;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','30600' from score;
+--2017-06-01
+insert into game select max(id)+1,'2017-06-01',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','20200' from score;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','31200' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','26800' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','21800' from score;
+--2017-06-01
+insert into game select max(id)+1,'2017-06-01',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','38000' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','5200' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','37800' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','19000' from score;
+--2017-06-04
+insert into game select max(id)+1,'2017-06-04',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','33500' from score;
+insert into score select (count(*)/4+1),1,'Смоленцев Виктор','35100' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','14400' from score;
+insert into score select (count(*)/4+1),3,'Ким Евгений','17000' from score;
+--2017-06-04
+insert into game select max(id)+1,'2017-06-04',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Васильев Сергей','41600' from score;
+insert into score select (count(*)/4+1),3,'Смоленцев Виктор','17900' from score;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','28400' from score;
+insert into score select (count(*)/4+1),4,'Ким Евгений','12100' from score;
+--2017-06-04
+insert into game select max(id)+1,'2017-06-04',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Васильев Сергей','33300' from score;
+insert into score select (count(*)/4+1),2,'Смоленцев Виктор','31000' from score;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','26000' from score;
+insert into score select (count(*)/4+1),4,'Ким Евгений','9700' from score;
+--2017-06-04
+insert into game select max(id)+1,'2017-06-04',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','38300' from score;
+insert into score select (count(*)/4+1),4,'Смоленцев Виктор','8800' from score;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','28700' from score;
+insert into score select (count(*)/4+1),3,'Ким Евгений','24200' from score;
+--2017-06-04
+insert into game select max(id)+1,'2017-06-04',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','33200' from score;
+insert into score select (count(*)/4+1),2,'Смоленцев Виктор','23900' from score;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','22500' from score;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','20400' from score;
+--2017-06-07
+insert into game select max(id)+1,'2017-06-07',5,'ema' from game;
+insert into score select (count(*)/4+1),1,'Проскурякова Ольга','32900' from score;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','29400' from score;
+insert into score select (count(*)/4+1),3,'Смоленцев Виктор','29100' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','8600' from score;
+--2017-06-07
+insert into game select max(id)+1,'2017-06-07',5,'ema' from game;
+insert into score select (count(*)/4+1),3,'Проскурякова Ольга','13600' from score;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','65600' from score;
+insert into score select (count(*)/4+1),4,'Смоленцев Виктор','-2700' from score;
+insert into score select (count(*)/4+1),2,'Алешин Сергей','23500' from score;
+--2017-06-07
+insert into game select max(id)+1,'2017-06-07',5,'ema' from game;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','26400' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','16500' from score;
+insert into score select (count(*)/4+1),1,'Смоленцев Виктор','62100' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','-5000' from score;
+--2017-06-07
+insert into game select max(id)+1,'2017-06-07',5,'ema' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','43300' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','26400' from score;
+insert into score select (count(*)/4+1),4,'Проскурякова Ольга','-6700' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','37000' from score;
+--2017-06-07
+insert into game select max(id)+1,'2017-06-07',5,'ema' from game;
+insert into score select (count(*)/4+1),3,'Алешин Сергей','26300' from score;
+insert into score select (count(*)/4+1),1,'Смоленцев Виктор','39800' from score;
+insert into score select (count(*)/4+1),4,'Проскурякова Ольга','-200' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','34100' from score;
+--2017-06-07
+insert into game select max(id)+1,'2017-06-07',5,'ema' from game;
+insert into score select (count(*)/4+1),3,'Алешин Сергей','20100' from score;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','38300' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','18300' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','23300' from score;
+--2017-06-10
+insert into game select max(id)+1,'2017-06-10',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Васильев Сергей','45100' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','22200' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','19500' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','13200' from score;
+--2017-06-10
+insert into game select max(id)+1,'2017-06-10',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','20300' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','23000' from score;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','34400' from score;
+insert into score select (count(*)/4+1),3,'Алешин Сергей','22300' from score;
+--2017-06-10
+insert into game select max(id)+1,'2017-06-10',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Гришин Виктор','2700' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','39700' from score;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','38800' from score;
+insert into score select (count(*)/4+1),3,'Гоголев Максим','18800' from score;
+--2017-06-10
+insert into game select max(id)+1,'2017-06-10',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','22700' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','16600' from score;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','43800' from score;
+insert into score select (count(*)/4+1),3,'Гоголев Максим','16900' from score;
+--2017-06-10
+insert into game select max(id)+1,'2017-06-10',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','32500' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','9600' from score;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','33400' from score;
+insert into score select (count(*)/4+1),3,'Гоголев Максим','24500' from score;
+--2017-06-10
+insert into game select max(id)+1,'2017-06-10',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','40100' from score;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','30700' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','17600' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','11600' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','52600' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','20900' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','17800' from score;
+insert into score select (count(*)/4+1),4,'Проскурякова Ольга','8700' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','83100' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','15900' from score;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','-6900' from score;
+insert into score select (count(*)/4+1),3,'Проскурякова Ольга','7900' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','32200' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','28400' from score;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','-1000' from score;
+insert into score select (count(*)/4+1),1,'Проскурякова Ольга','40400' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','38900' from score;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','27100' from score;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','8700' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','25300' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','42400' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','-300' from score;
+insert into score select (count(*)/4+1),2,'Проскурякова Ольга','32200' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','25700' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','33200' from score;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','28900' from score;
+insert into score select (count(*)/4+1),1,'Проскурякова Ольга','33500' from score;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','4400' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','57900' from score;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','17200' from score;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','18100' from score;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','6800' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Гришин Виктор','11500' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','17600' from score;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','36500' from score;
+insert into score select (count(*)/4+1),2,'Проскурякова Ольга','34400' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','35000' from score;
+insert into score select (count(*)/4+1),4,'Леонтьев Алексей','9800' from score;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','34300' from score;
+insert into score select (count(*)/4+1),3,'Проскурякова Ольга','20900' from score;
+--2017-06-11
+insert into game select max(id)+1,'2017-06-11',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','49200' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','46900' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','-4800' from score;
+insert into score select (count(*)/4+1),3,'Проскурякова Ольга','8700' from score;
+--2017-06-13
+insert into game select max(id)+1,'2017-06-13',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','50700' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','27800' from score;
+insert into score select (count(*)/4+1),3,'Петрущенко Сергей','19700' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','1800' from score;
+--2017-06-13
+insert into game select max(id)+1,'2017-06-13',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','25200' from score;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','23000' from score;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','36000' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','15800' from score;
+--2017-06-13
+insert into game select max(id)+1,'2017-06-13',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','21200' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','4000' from score;
+insert into score select (count(*)/4+1),3,'Петрущенко Сергей','19400' from score;
+insert into score select (count(*)/4+1),1,'Алешин Сергей','55400' from score;
+--2017-06-15
+insert into game select max(id)+1,'2017-06-15',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','34900' from score;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','29500' from score;
+insert into score select (count(*)/4+1),3,'Смоленцев Виктор','29300' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','6300' from score;
+--2017-06-15
+insert into game select max(id)+1,'2017-06-15',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','23400' from score;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','33200' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','-700' from score;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','44100' from score;
+--2017-06-15
+insert into game select max(id)+1,'2017-06-15',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','24400' from score;
+insert into score select (count(*)/4+1),4,'Смоленцев Виктор','18600' from score;
+insert into score select (count(*)/4+1),2,'Алешин Сергей','25200' from score;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','31800' from score;
+--2017-06-15
+insert into game select max(id)+1,'2017-06-15',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','19600' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','29000' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','18600' from score;
+insert into score select (count(*)/4+1),1,'Васильев Сергей','32800' from score;
+--2017-06-15
+insert into game select max(id)+1,'2017-06-15',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Проскурякова Ольга','24700' from score;
+insert into score select (count(*)/4+1),2,'Усманов Рамиль','27500' from score;
+insert into score select (count(*)/4+1),4,'Алешин Сергей','11800' from score;
+insert into score select (count(*)/4+1),1,'Ким Евгений','36000' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Афонин Михаил','40700' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','31800' from score;
+insert into score select (count(*)/4+1),3,'Васильев Сергей','26000' from score;
+insert into score select (count(*)/4+1),4,'Сироткин Дмитрий','1500' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Афонин Михаил','27600' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','-3200' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','22900' from score;
+insert into score select (count(*)/4+1),1,'Сироткин Дмитрий','52700' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','18400' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','17800' from score;
+insert into score select (count(*)/4+1),4,'Леонтьев Алексей','14100' from score;
+insert into score select (count(*)/4+1),1,'Наданьян Владимир','49700' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','17200' from score;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','35800' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','23100' from score;
+insert into score select (count(*)/4+1),2,'Наданьян Владимир','23900' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','31000' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','16500' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','26700' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','25800' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','-2200' from score;
+insert into score select (count(*)/4+1),1,'Наданьян Владимир','57200' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','11300' from score;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','33700' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','11500' from score;
+insert into score select (count(*)/4+1),4,'Наданьян Владимир','-800' from score;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','31700' from score;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','57600' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','-1500' from score;
+insert into score select (count(*)/4+1),2,'Наданьян Владимир','28300' from score;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','55200' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','18000' from score;
+--2017-06-17
+insert into game select max(id)+1,'2017-06-17',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','24400' from score;
+insert into score select (count(*)/4+1),4,'Наданьян Владимир','14900' from score;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','18700' from score;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','42000' from score;
+--2017-06-23
+insert into game select max(id)+1,'2017-06-23',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Васильев Сергей','35200' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','26100' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','13000' from score;
+insert into score select (count(*)/4+1),3,'Смоленцев Виктор','25700' from score;
+--2017-06-23
+insert into game select max(id)+1,'2017-06-23',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','8500' from score;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','43200' from score;
+insert into score select (count(*)/4+1),2,'Петрущенко Сергей','26300' from score;
+insert into score select (count(*)/4+1),3,'Смоленцев Виктор','22000' from score;
+--2017-06-23
+insert into game select max(id)+1,'2017-06-23',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Сироткин Дмитрий','48300' from score;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','17000' from score;
+insert into score select (count(*)/4+1),2,'Петрущенко Сергей','23600' from score;
+insert into score select (count(*)/4+1),4,'Смоленцев Виктор','11100' from score;
+--2017-06-23
+insert into game select max(id)+1,'2017-06-23',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Сироткин Дмитрий','15600' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','12100' from score;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','42100' from score;
+insert into score select (count(*)/4+1),2,'Смоленцев Виктор','30200' from score;
+--2017-06-24
+insert into game select max(id)+1,'2017-06-24',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','55200' from score;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','19100' from score;
+insert into score select (count(*)/4+1),3,'Проскурякова Ольга','17000' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','8700' from score;
+--2017-06-24
+insert into game select max(id)+1,'2017-06-24',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','29100' from score;
+insert into score select (count(*)/4+1),3,'Васильев Сергей','28900' from score;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','31400' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','10600' from score;
+--2017-06-24
+insert into game select max(id)+1,'2017-06-24',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','31300' from score;
+insert into score select (count(*)/4+1),1,'Васильев Сергей','65800' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','-6100' from score;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','9000' from score;
+--2017-06-24
+insert into game select max(id)+1,'2017-06-24',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','28300' from score;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','36300' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','11100' from score;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','24300' from score;
+--2017-06-24
+insert into game select max(id)+1,'2017-06-24',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','26800' from score;
+insert into score select (count(*)/4+1),3,'Васильев Сергей','24000' from score;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','33000' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','16200' from score;
+--2017-06-24
+insert into game select max(id)+1,'2017-06-24',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','22000' from score;
+insert into score select (count(*)/4+1),1,'Васильев Сергей','32600' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','15600' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','29800' from score;
+--2017-06-24
+insert into game select max(id)+1,'2017-06-24',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','28400' from score;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','33900' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','-1300' from score;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','39000' from score;
+--2017-06-24
+insert into game select max(id)+1,'2017-06-24',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','40800' from score;
+insert into score select (count(*)/4+1),3,'Васильев Сергей','22900' from score;
+insert into score select (count(*)/4+1),2,'Петрущенко Сергей','36700' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','-400' from score;
+--2017-06-22
+insert into game select max(id)+1,'2017-06-22',5,'std' from game;
+insert into score select (count(*)/4+1),2,'Козлов Виктор','30100' from score;
+insert into score select (count(*)/4+1),1,'Алешин Сергей','36600' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','28800' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','4500' from score;
+--2017-06-22
+insert into game select max(id)+1,'2017-06-22',5,'std' from game;
+insert into score select (count(*)/4+1),1,'Козлов Виктор','40300' from score;
+insert into score select (count(*)/4+1),3,'Алешин Сергей','22600' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','29000' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','8100' from score;
+--2017-06-22
+insert into game select max(id)+1,'2017-06-22',5,'std' from game;
+insert into score select (count(*)/4+1),1,'Козлов Виктор','46000' from score;
+insert into score select (count(*)/4+1),2,'Алешин Сергей','41500' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','23800' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','-11300' from score;
+--2017-06-22
+insert into game select max(id)+1,'2017-06-22',5,'std' from game;
+insert into score select (count(*)/4+1),3,'Козлов Виктор','14900' from score;
+insert into score select (count(*)/4+1),2,'Алешин Сергей','40500' from score;
+insert into score select (count(*)/4+1),4,'Леонтьев Алексей','-6600' from score;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','51200' from score;
+--2017-06-25
+insert into game select max(id)+1,'2017-06-25',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','31200' from score;
+insert into score select (count(*)/4+1),2,'Алешин Сергей','26000' from score;
+insert into score select (count(*)/4+1),4,'Гришин Виктор','19200' from score;
+insert into score select (count(*)/4+1),3,'Петрущенко Сергей','23600' from score;
+--2017-06-25
+insert into game select max(id)+1,'2017-06-25',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','31300' from score;
+insert into score select (count(*)/4+1),3,'Алешин Сергей','20300' from score;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','39400' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','9000' from score;
+--2017-06-25
+insert into game select max(id)+1,'2017-06-25',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Петрущенко Сергей','26400' from score;
+insert into score select (count(*)/4+1),1,'Алешин Сергей','34400' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','7200' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','32000' from score;
+--2017-06-25
+insert into game select max(id)+1,'2017-06-25',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Гришин Виктор','13700' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','27900' from score;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','20000' from score;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','38400' from score;
+--2017-06-25
+insert into game select max(id)+1,'2017-06-25',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','10500' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','40600' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','7900' from score;
+insert into score select (count(*)/4+1),1,'Алешин Сергей','41000' from score;
+--2017-06-25
+insert into game select max(id)+1,'2017-06-25',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','64400' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','25300' from score;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','8800' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','1500' from score;
+--2017-06-25
+insert into game select max(id)+1,'2017-06-25',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','26200' from score;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','62200' from score;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','14200' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','-2600' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','43100' from score;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','20300' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','18400' from score;
+insert into score select (count(*)/4+1),4,'Смоленцев Виктор','18200' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','5000' from score;
+insert into score select (count(*)/4+1),1,'Петрущенко Сергей','37800' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','24100' from score;
+insert into score select (count(*)/4+1),2,'Смоленцев Виктор','33100' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','18500' from score;
+insert into score select (count(*)/4+1),4,'Петрущенко Сергей','10000' from score;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','38100' from score;
+insert into score select (count(*)/4+1),2,'Проскурякова Ольга','33400' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Смоленцев Виктор','35300' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','9600' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','32000' from score;
+insert into score select (count(*)/4+1),3,'Проскурякова Ольга','23100' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Смоленцев Виктор','12900' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','32200' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','21100' from score;
+insert into score select (count(*)/4+1),1,'Проскурякова Ольга','33800' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),4,'Смоленцев Виктор','-800' from score;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','37900' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','20200' from score;
+insert into score select (count(*)/4+1),1,'Проскурякова Ольга','42700' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Смоленцев Виктор','22300' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','-1100' from score;
+insert into score select (count(*)/4+1),1,'Гришин Виктор','42200' from score;
+insert into score select (count(*)/4+1),2,'Проскурякова Ольга','36600' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Смоленцев Виктор','46000' from score;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','15400' from score;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','40900' from score;
+insert into score select (count(*)/4+1),4,'Проскурякова Ольга','-2300' from score;
+--2017-06-29
+insert into game select max(id)+1,'2017-06-29',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Смоленцев Виктор','12200' from score;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','46300' from score;
+insert into score select (count(*)/4+1),2,'Гришин Виктор','34000' from score;
+insert into score select (count(*)/4+1),4,'Проскурякова Ольга','7500' from score;
+--2017-06-30
+insert into game select max(id)+1,'2017-06-30',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Сироткин Дмитрий','44300' from score;
+insert into score select (count(*)/4+1),2,'Петрущенко Сергей','33900' from score;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','14300' from score;
+insert into score select (count(*)/4+1),4,'Леонтьев Алексей','7500' from score;
+--2017-06-30
+insert into game select max(id)+1,'2017-06-30',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Сироткин Дмитрий','63800' from score;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','22200' from score;
+insert into score select (count(*)/4+1),4,'Черных Анастасия','1800' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','12200' from score;
+--2017-06-30
+insert into game select max(id)+1,'2017-06-30',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','18700' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','18700' from score;
+insert into score select (count(*)/4+1),2,'Петрущенко Сергей','20300' from score;
+insert into score select (count(*)/4+1),1,'Васильев Сергей','42300' from score;
+--2017-06-30
+insert into game select max(id)+1,'2017-06-30',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Сироткин Дмитрий','23100' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','7600' from score;
+insert into score select (count(*)/4+1),3,'Петрущенко Сергей','10900' from score;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','58400' from score;
+--2017-06-30
+insert into game select max(id)+1,'2017-06-30',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','10600' from score;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','33500' from score;
+insert into score select (count(*)/4+1),4,'Васильев Сергей','3500' from score;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','52400' from score;
+--2017-06-30
+insert into game select max(id)+1,'2017-06-30',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','31000' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','6100' from score;
+insert into score select (count(*)/4+1),3,'Васильев Сергей','27500' from score;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','35400' from score;
