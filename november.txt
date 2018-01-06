@@ -130,3 +130,33 @@ insert into score select (count(*)/4+1),3,'Петрущенко Сергей','2
 insert into score select (count(*)/4+1),1,'Алешин Сергей','36000' from score;
 insert into score select (count(*)/4+1),2,'Черных Анастасия','31600' from score;
 insert into score select (count(*)/4+1),4,'Плясунов Владислав','4300' from score;
+--2017-11-25
+insert into game select max(id)+1,'2017-11-25',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','57700' from score;
+insert into score select (count(*)/4+1),3,'Алешин Сергей','14500' from score;
+insert into score select (count(*)/4+1),4,'Леонтьев Алексей','-5600' from score;
+insert into score select (count(*)/4+1),2,'Плясунов Владислав','33400' from score;
+--2017-11-25
+insert into game select max(id)+1,'2017-11-25',3,'std' from game;
+insert into score select (count(*)/4+1),2,'Черных Анастасия','38900' from score;
+insert into score select (count(*)/4+1),4,'Гришин Виктор','5100' from score;
+insert into score select (count(*)/4+1),1,'Леонтьев Алексей','40200' from score;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','15800' from score;
+--2017-11-25
+insert into game select max(id)+1,'2017-11-25',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','49300' from score;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','30500' from score;
+insert into score select (count(*)/4+1),3,'Леонтьев Алексей','13800' from score;
+insert into score select (count(*)/4+1),4,'Плясунов Владислав','6400' from score;
+--2017-11-25
+insert into game select max(id)+1,'2017-11-25',3,'std' from game;
+insert into score select (count(*)/4+1),1,'Черных Анастасия','51900' from score;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','26300' from score;
+insert into score select (count(*)/4+1),4,'Гришин Виктор','-1300' from score;
+insert into score select (count(*)/4+1),3,'Плясунов Владислав','23100' from score;
+--2017-11-25
+insert into game select max(id)+1,'2017-11-25',3,'std' from game;
+insert into score select (count(*)/4+1),3,'Черных Анастасия','25100' from score;
+insert into score select (count(*)/4+1),2,'Васильев Сергей','30000' from score;
+insert into score select (count(*)/4+1),4,'Гришин Виктор','11700' from score;
+insert into score select (count(*)/4+1),1,'Плясунов Владислав','33200' from score;
