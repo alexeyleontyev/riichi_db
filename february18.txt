@@ -278,7 +278,7 @@ insert into score select (count(*)/4+1),2,'Павлов Георгий','21100' 
 insert into game select max(id)+1,'2018-02-22',3,'std' from game;
 insert into score select (count(*)/4+1),1,'Черных Анастасия','52200' from score;
 insert into score select (count(*)/4+1),4,'Васильев Сергей','-3700' from score;
-insert into score select (count(*)/4+1),2,'Гришин Виктор','19600' from score;
+insert into score select (count(*)/4+1),3,'Гришин Виктор','19600' from score;
 insert into score select (count(*)/4+1),2,'Проскурякова Ольга','31900' from score;
 --2018-02-22
 insert into game select max(id)+1,'2018-02-22',3,'std' from game;
@@ -312,7 +312,7 @@ insert into score select (count(*)/4+1),3,'Черных Анастасия','186
 insert into score select (count(*)/4+1),2,'Васильев Сергей','31500' from score;
 --2018-02-23
 insert into game select max(id)+1,'2018-02-23',3,'std' from game;
-insert into score select (count(*)/4+1),1,'Леонтьев Алексей','34200' from score;
+insert into score select (count(*)/4+1),2,'Леонтьев Алексей','34200' from score;
 insert into score select (count(*)/4+1),3,'Сироткин Дмитрий','32000' from score;
 insert into score select (count(*)/4+1),1,'Черных Анастасия','35000' from score;
 insert into score select (count(*)/4+1),4,'Алешин Сергей','-1200' from score;
